@@ -29,4 +29,4 @@ jobs:
       - name: Run check-manifest
         uses: ./
         with:
-          package-dir: 'test_project'
+          package-dir: 'test_package'

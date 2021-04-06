@@ -26,7 +26,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 
 ## Example
 
-- Update the `MANIFEST.in` using the suggesstions from [check-manifest](https://github.com/mgedmin/check-manifest)
+- Update the `MANIFEST.in` using the suggestions from [check-manifest](https://github.com/mgedmin/check-manifest)
 
 ```yaml
 ...

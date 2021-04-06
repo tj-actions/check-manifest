@@ -10,13 +10,17 @@ inputs:
     description: 'Arguments passed to check-manifest'
     required: false
     default: ''
+  version:
+    description: 'Pinned version of check-manifest'
+    required: false
+    default: '0.46'
 
 runs:
   using: 'composite'
   steps:
     - id: check-manifest
       run: |
-        pip install -U check-manifest
+        pip install -U check-manifest==${{inputs.version }}
         PACKAGE_DIR="${{ inputs.package-dir }}"
         if [[ -n $PACKAGE_DIR  ]]; then
           echo "Changing directory to $PACKAGE_DIR..."

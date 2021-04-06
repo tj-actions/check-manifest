@@ -1,7 +1,7 @@
 check-manifest
 --------------
 
-Run check-manifest
+Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues with distributed python packages.
 
 ```yaml
 ...

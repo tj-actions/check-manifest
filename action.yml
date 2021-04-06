@@ -12,7 +12,7 @@ inputs:
     default: ''
   version:
     description: 'Pinned version of check-manifest'
-    required: false
+    required: true
     default: '0.46'
 
 runs:

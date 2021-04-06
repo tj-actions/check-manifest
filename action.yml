@@ -2,16 +2,28 @@ name: check-manifest
 description: Run check-manifest
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
+  package-dir:
+    description: 'Directory of the package'
+    required: false
+    default: ''
+  args:
+    description: 'Arguments passed to check-manifest'
+    required: false
+    default: ''
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
+  using: 'composite'
+  steps:
+    - id: check-manifest
+      run: |
+        pip install -U check-manifest
+        PACKAGE_DIR="${{ inputs.package-dir }}"
+        if [[ -n $PACKAGE_DIR  ]]; then
+          echo "Changing directory to $PACKAGE_DIR..."
+          cd $PACKAGE_DIR
+        fi
+        check-manifest ${{ inputs.args }}
+      shell: bash
 branding:
   icon: check-square
   color: white

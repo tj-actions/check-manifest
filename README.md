@@ -16,8 +16,9 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
-
+| package-dir         |  `string`   |    `false`    |  `''` | Directory of the package             |
+| args                |  `string`   |    `false`    |  `''` | Arguments to pass directly to [check-manifest](https://github.com/mgedmin/check-manifest#command-line-reference)            |
+| version         |  `string`   |    `false`    | `0.46` | Version of  [check-manifest](https://github.com/mgedmin/check-manifest/tags)  |
 
 
 * Free software: [MIT license](LICENSE)

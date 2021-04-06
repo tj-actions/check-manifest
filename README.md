@@ -1,3 +1,5 @@
+[![CI](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml)
+
 check-manifest
 --------------
 

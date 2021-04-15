@@ -58,7 +58,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
           branch: "chore/update-manifest-in"
           commit-message: "Updated MANIFEST.in"
           body: "Updated MANIFEST.in"
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.github_token }}
 
 ```
 

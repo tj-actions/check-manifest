@@ -19,7 +19,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | package-dir         |  `string`   |    `false`    |  `''` | Directory of the package             |
-| args                |  `string`   |    `false`    |  `'-v'` | Arguments passed directly to [check-manifest](https://github.com/mgedmin/check-manifest#command-line-reference)            |
+| args                |  `string`   |    `false`    |  `-v` | Arguments passed directly to [check-manifest](https://github.com/mgedmin/check-manifest#command-line-reference)            |
 | version         |  `string`   |    `true`    | `0.46` | Version of  [check-manifest](https://github.com/mgedmin/check-manifest/tags)  |
 
 

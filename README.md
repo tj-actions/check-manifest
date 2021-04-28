@@ -45,7 +45,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Run check-manifest
-        uses: ./
+        uses: tj-actions/check-manifest@v1
         with:
           package-dir: 'test_package'
           args: '-u'

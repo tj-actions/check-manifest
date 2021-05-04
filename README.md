@@ -33,10 +33,10 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Set up Python 3.6
+      - name: Set up Python 3
         uses: actions/setup-python@v2
         with:
-          python-version: '3.6'
+          python-version: '3.x'
       - uses: actions/cache@v2
         id: pip-cache
         with:

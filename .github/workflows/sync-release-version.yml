@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.5
       - name: Sync release version
-        uses: tj-actions/sync-release-version@v8.7
+        uses: tj-actions/sync-release-version@v9
         id: sync-release-version
         with:
           pattern: '${{ github.repository }}@'

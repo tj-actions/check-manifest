@@ -1,5 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d94ad31570d41a7b37407e0c5453367)](https://app.codacy.com/gh/tj-actions/check-manifest?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/check-manifest\&utm_campaign=Badge_Grade_Settings)
-[![CI](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fcheck-manifest%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+check-manifest+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
+[![CI](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/test.yml)
+[![Update release version.](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/check-manifest/actions/workflows/sync-release-version.yml) 
+[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fcheck-manifest%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+check-manifest+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
 ## check-manifest
 

@@ -9,7 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Sync release version
+        with:
+          fetch-depth: 0
+      - name: Run release-tagger
+        uses: tj-actions/release-tagger@v2
+      - name: Sync release version.
         uses: tj-actions/sync-release-version@v13
         id: sync-release-version
         with:

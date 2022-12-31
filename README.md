@@ -17,6 +17,16 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 
 ## Inputs
 
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|    INPUT    |  TYPE  | REQUIRED | DEFAULT  |            DESCRIPTION             |
+|-------------|--------|----------|----------|------------------------------------|
+|    args     | string |  false   |  `"-v"`  | Arguments passed to check-manifest |
+| package-dir | string |  false   |          |      Directory of the package      |
+|   version   | string |   true   | `"0.46"` |  Pinned version of check-manifest  |
+
+<!-- AUTO-DOC-INPUT:END -->
+
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | package-dir         |  `string`   |    `false`    |  `''` | Directory of the package             |

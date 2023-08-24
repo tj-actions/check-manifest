@@ -19,11 +19,11 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|    INPUT    |  TYPE  | REQUIRED | DEFAULT  |            DESCRIPTION             |
-|-------------|--------|----------|----------|------------------------------------|
-|    args     | string |  false   |  `"-v"`  | Arguments passed to check-manifest |
-| package-dir | string |  false   |          |      Directory of the package      |
-|   version   | string |   true   | `"0.46"` |  Pinned version of check-manifest  |
+|                               INPUT                               |  TYPE  | REQUIRED | DEFAULT  |            DESCRIPTION             |
+|-------------------------------------------------------------------|--------|----------|----------|------------------------------------|
+|           <a name="input_args"></a>[args](#input_args)            | string |  false   |  `"-v"`  | Arguments passed to check-manifest |
+| <a name="input_package-dir"></a>[package-dir](#input_package-dir) | string |  false   |          |      Directory of the package      |
+|       <a name="input_version"></a>[version](#input_version)       | string |   true   | `"0.46"` |  Pinned version of check-manifest  |
 
 <!-- AUTO-DOC-INPUT:END -->
 

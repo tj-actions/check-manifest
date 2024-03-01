@@ -10,7 +10,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: check-manifest
         uses: tj-actions/check-manifest@v1
 ```
@@ -35,7 +35,7 @@ Run [check-manifest](https://github.com/mgedmin/check-manifest) to detect issues
 ...
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Python 3
         uses: actions/setup-python@v2
         with:

@@ -16,10 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5.0.0
+        uses: actions/setup-python@v5.1.0
         with:
           python-version: '3.11'
-      - uses: actions/cache@v4.0.1
+      - uses: actions/cache@v4.0.2
         id: pip-cache
         with:
           path: ~/.cache/pip
@@ -33,7 +33,7 @@ jobs:
           args: '-u'
       - name: Create Pull Request
         if: failure()
-        uses: peter-evans/create-pull-request@v6.0.1
+        uses: peter-evans/create-pull-request@v6.0.3
         with:
           base: "main"
           title: "Updated MANIFEST.in"
